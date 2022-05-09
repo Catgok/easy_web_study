@@ -5,23 +5,43 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<div class="son" style="flex:1">4</div><!-- flex -->
+<div class="son" style="flex:0.1">5</div>
+<div class="son" style="flex:0 0 20px">6</div>
+<div class="son" style="flex:1 1 auto">7</div>
+<div class="son">7</div>
+
+</body>
+
+<body>
+<div>234</div>
 </body>
 </html>
 
 <style>
+    .son {
+        width: 200px;
+        height: 200px;
+    }
+
     div {
         border: 1px solid red;
         width: 200px;
 
-        /*float: left;*/
     }
 
     body {
         display: flex;
         flex-direction: row;
-        flex-wrap:wrap;
+        flex-wrap: wrap;
+
+        justify-content: space-between; /*水平*/
+        align-items: center; /*垂直*/
+
+        border: 1px solid blue;
+        height: 200px;
     }
 </style>
