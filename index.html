@@ -3,13 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-<!--    <link href="framework/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
+    <!--    <link href="framework/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
     <link rel="stylesheet" href="node_modules/reset.css/reset.css">
-<!--    <link href="framework/icon.css" rel="stylesheet">-->
+    <!--    <link href="framework/icon.css" rel="stylesheet">-->
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link href="css/index.css" rel="stylesheet">
-<!--    <script src="js/index.js"></script>-->
+    <!--    <script src="js/index.js"></script>-->
     <title>饿了么 首页</title>
+    <link rel="stylesheet" href="css/globalFooter.css">
 
 
 </head>
@@ -32,7 +33,12 @@
         <!-- 当滚动条超过上面的定位块时，search-fixed-top块变成固定在顶部。 -->
         <div class="search-fixed-top" id="fixedBox">
             <!-- 搜索框部分中间的白框 -->
-            <div class="search-box"><i class="fa fa-search"></i>搜索饿了么商家、商品名称
+            <div class="search-box">
+                <i class="fa fa-search"></i>
+                <input tpye="test" style="height: 100%; width:100%;padding: 0; border: 0;outline: 0;font-size: 4vw"
+                       placeholder="搜索饿了么商家、商品名称">
+
+                <!--  <i class="fa fa-search"></i>搜索饿了么商家、商品名称-->
             </div>
         </div>
     </div>
@@ -341,7 +347,7 @@
     <ul class="footer">
         <li onclick="location.href='index.html'">
             <i class="fa fa-home"></i>
-            <p>首页</p>3.2.2.css部分
+            <p>首页</p>
         </li>
         <li>
             <i class="fa fa-compass"></i>
