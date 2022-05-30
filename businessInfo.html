@@ -13,6 +13,8 @@
     <script>
         // javascript
         function clickMinus(sender) {
+            console.log(sender);
+
             let foodCount = document.getElementById("foodCount").innerText;
             let x = Number(foodCount);
             foodCount = x - 1;
@@ -58,7 +60,7 @@
             </div>
             <div class="food-right">
                 <div>
-                    <i class=" fa fa-minus-circle" onclick="clickMinus()"></i>
+                    <i class=" fa fa-minus-circle" onclick="clickMinus(this)"></i>
                 </div>
                 <p><span id="foodCount">3</span></p>
                 <div>
