@@ -10,7 +10,22 @@
     <link rel="stylesheet" href="css/businessInfo.css">
     <title>饿了么 商家信息</title>
     <link rel="stylesheet" href="css/globalFooter.css">
+    <script>
+        // javascript
+        function clickMinus(sender) {
+            let foodCount = document.getElementById("foodCount").innerText;
+            let x = Number(foodCount);
+            foodCount = x - 1;
+            document.getElementById("foodCount").innerText = foodCount;
+        }
 
+        function clickPlus() {
+            let foodCount = document.getElementById("foodCount").innerText;
+            let x = Number(foodCount);
+            foodCount = x + 1;
+            document.getElementById("foodCount").innerText = foodCount;
+        }
+    </script>
 
 </head>
 <body>
@@ -20,11 +35,12 @@
         <p>商家信息</p>
     </header>
     <!-- 商家logo部分 -->
-    <div class="business-logo">
-        <img src="img/sj01.png">
-    </div>
+    <!--    <div class="business-logo">-->
+    <!--        <img src="img/sj01.png">-->
+    <!--    </div>-->
     <!-- 商家信息部分 -->
     <div class="business-info">
+        <img src="img/sj01.png">
         <h1>万家饺子（软件园E18店）</h1>
         <p>&#165;15起送 &#165;3配送</p>
         <p>各种饺子炒菜</p>
@@ -42,11 +58,11 @@
             </div>
             <div class="food-right">
                 <div>
-                    <i class="fa fa-minus-circle"></i>
+                    <i class=" fa fa-minus-circle" onclick="clickMinus()"></i>
                 </div>
-                <p><span>3</span></p>
+                <p><span id="foodCount">3</span></p>
                 <div>
-                    <i class="fa fa-plus-circle"></i>
+                    <i class="fa fa-plus-circle" onclick="clickPlus()"></i>
                 </div>
             </div>
         </li>
@@ -141,7 +157,7 @@
             </div>
         </li>
         <li>
-            <div class="food-left">
+            <div class="food-left last">
                 <img src="img/sp07.png">
                 <div class="food-left-info">
                     <h3>芹菜牛肉（水饺）</h3>
@@ -172,7 +188,7 @@
             </div>
         </div>
         <div class="cart-right">
-<!--             不够起送费 -->
+            <!--             不够起送费 -->
             <!--
             <div class="cart-right-item">
             &#165;15起送

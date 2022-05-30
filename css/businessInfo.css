@@ -37,10 +37,25 @@
     border-radius: 5px;
 }
 
+/*媒体查询*/
+@media screen  and (max-device-width: 1000px) {
+    /*max-device-width<1000px 时成立*/
+    .wrapper .business-logo img {
+        border: 1px red solid;
+    }
+}
+
 /****************** 商家信息部分 ******************/
+.wrapper .business-info img {
+    width: 40vw;
+    height: 20vw;
+    border-radius: 5px;
+}
+
 .wrapper .business-info {
     width: 100%;
-    height: 20vw;
+    height: 55vw;
+    /*width: 40vw;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,6 +64,7 @@
 
 .wrapper .business-info h1 {
     font-size: 5vw;
+    font-weight: bold;
 }
 
 .wrapper .business-info p {
@@ -63,7 +79,9 @@
     /*使用下外边距避开footer部分*/
     margin-bottom: 14vw;
 }
-
+.last{
+    margin-bottom: 14vw;
+}
 .wrapper .food li {
     width: 100%;
     box-sizing: border-box;
