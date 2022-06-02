@@ -54,7 +54,7 @@
     align-items: center;
     font-size: 3.5vw;
     color: #AEAEAE;
-    font-family: "宋体";
+    /*font-family: "宋体";*/
     /*此样式是让文本选中状态无效*/
     user-select: none;
 }
@@ -84,7 +84,7 @@
     justify-content: center;
     align-items: center;
     user-select: none;
-    cursor: pointer;/*鼠标移动到时 的形状*/
+    cursor: pointer; /*鼠标移动到时 的形状*/
 }
 
 .wrapper .foodtype li img {
@@ -108,8 +108,8 @@
     margin: 0 auto;
     height: 29vw;
     /*此三个样式组合，可以保证背景图片充满整个容器*/
-    background-image: url(../img/index_banner.png);/* 背景图*/
-    background-repeat: no-repeat;/*不重复*/
+    background-image: url(../img/index_banner.png); /* 背景图*/
+    background-repeat: no-repeat; /*不重复*/
     background-size: cover;
     box-sizing: border-box;
     padding: 2vw 6vw;
@@ -202,7 +202,7 @@
     margin-bottom: 5vw;
     display: flex;
     justify-content: space-around;
-    align-items: center;/*居中三件*/
+    align-items: center; /*居中三件*/
 }
 
 .wrapper .recommendtype li {

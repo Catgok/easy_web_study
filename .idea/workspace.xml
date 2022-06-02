@@ -2,21 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2114678b-0ec5-4901-923b-80bdaa0f919e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/orderList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/payment.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/register.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/orderList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/payment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orderList.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/payment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dcfl01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dcfl02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dcfl03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dcfl05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dcfl06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dcfl07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index_banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sj02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sj03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sj04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sj05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sj06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sj07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sj08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sj09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/super_member.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businessInfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/businessInfo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/businessList.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/businessList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/businessInfo.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/businessInfo.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sj01.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/sj01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orderList.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/orderList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/payment.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/payment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +71,16 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2022_1th_term_Introduction_of_Software_Engineering/ecc_web" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Catgok\YNU\2022_1th_term_Software_Engineering_Training\web\html" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,7 +98,11 @@
       <workItem from="1653908467199" duration="5928000" />
       <workItem from="1653919605811" duration="118000" />
       <workItem from="1653921508629" duration="32000" />
-      <workItem from="1654071519906" duration="1607000" />
+      <workItem from="1654071519906" duration="4173000" />
+      <workItem from="1654089397377" duration="229000" />
+      <workItem from="1654091406730" duration="70000" />
+      <workItem from="1654094865801" duration="310000" />
+      <workItem from="1654130434187" duration="5156000" />
     </task>
     <servers />
   </component>
