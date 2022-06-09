@@ -167,6 +167,7 @@
 
 .wrapper .supermember .left p {
     font-size: 3vw;
+    margin-top: 1vw;
 }
 
 .wrapper .supermember .right {
@@ -213,7 +214,7 @@
 /****************** 推荐商家列表部分 ******************/
 .wrapper .business {
     width: 100%;
-    margin-bottom: 14vw;
+    margin-bottom: 15vw;
 }
 
 .wrapper .business li {

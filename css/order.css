@@ -113,6 +113,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 3.5vw;
+    margin-bottom: 15vw;
 }
 
 /****************** 订单合计部分 ******************/
@@ -133,8 +134,9 @@
     font-weight: 700;
     user-select: none;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    padding-right: 3vw;
 }
 
 .wrapper .total .total-right {

@@ -91,6 +91,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 4vw;
+    margin-bottom: 15vw;
 }
 
 .wrapper .payment-button button {

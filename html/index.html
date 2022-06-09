@@ -3,17 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <!--    <link href="framework/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
     <link rel="stylesheet" href="../node_modules/reset.css/reset.css">
-    <!--    <link href="framework/icon.css" rel="stylesheet">-->
     <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/globalFooter.css">
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
-    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
-    <!--    <script src="js/index.js"></script>-->
+    <script src="../js/index.js"></script>
     <title>饿了么 首页</title>
-
 
 </head>
 <body>
@@ -21,23 +18,18 @@
 <div class="wrapper">
     <!-- header部分 -->
     <header>
-        <!--        <div class="icon-location-box">-->
-        <i class="el-icon-location-outline" style="margin:0 2px 0 2px;padding-bottom: 3px"></i>
-        <!--        </div>-->
-        <div class="location-text">沈阳市规划大厦<i class="fa fa-caret-down"></i></div>
+        <i class="el-icon-location-outline" style="margin:0 5px 0 5px;padding-bottom: 3px;font-size: 5vw"></i>
+        <div class="location-text">云南大学呈贡校区<i class="fa fa-caret-down"></i></div>
     </header>
     <!-- search部分 -->
-    <!--
-    搜索框部分（此块与search-fixed-top块宽度高度一致，用于当
-    search-fixed-top块固定后，挡住下面块不要窜上去）
-    -->
+    <!-- 搜索框部分（此块与search-fixed-top块宽度高度一致，用于当 search-fixed-top块固定后，挡住下面块不要窜上去） -->
     <div class="search">
         <!-- 当滚动条超过上面的定位块时，search-fixed-top块变成固定在顶部。 -->
         <div class="search-fixed-top" id="fixedBox">
             <!-- 搜索框部分中间的白框 -->
             <div class="search-box">
-                <i class="fa fa-search fa-2x" style="margin-left: 5px"></i>
-                <input tpye="test" style="height: 100%; width:100%;padding: 0; border: 0;outline: 0;font-size: 4vw"
+                <i class="el-icon-search" style="margin:0 10px 0 10px;font-size: 5vw"></i>
+                <input tpye="text" style="width:100%;padding: 0; border: 0;outline: 0;font-size: 4vw"
                        placeholder="搜索饿了么商家、商品名称">
                 <!--  <i class="fa fa-search"></i>搜索饿了么商家、商品名称-->
             </div>
@@ -88,8 +80,8 @@
     </ul>
     <!-- 横幅广告部分 -->
     <div class="banner">
-        <!--        <h3>品质套餐</h3>-->
-        <!--        <p>搭配齐全吃得好</p><a>立即抢购 &gt;</a>-->
+        <h3 style="margin-top: 4vw">品质套餐</h3>
+        <p>搭配齐全吃得好</p><a>立即抢购 &gt;</a>
     </div>
     <!-- 超级会员部分 -->
     <div class="supermember">
@@ -98,9 +90,7 @@
             <h3>超级会员</h3>
             <p>&#8226; 每月享超值权益</p>
         </div>
-        <div class="right">
-            立即开通 &gt;
-        </div>
+        <div class="right">立即开通 &gt;</div>
     </div>
     <!-- 推荐商家部分 -->
     <div class="recommend">
@@ -133,9 +123,7 @@
                         <i class="fa fa-star"></i>
                         <p>4.9 月售345单</p>
                     </div>
-                    <div class="business-info-star-right">
-                        蜂鸟专送
-                    </div>
+                    <div class="business-info-star-right">蜂鸟专送</div>
                 </div>
                 <div class="business-info-delivery"><p>&#165;15起送 | &#165;3配送</p>
                     <p>3.22km | 30分钟</p>
@@ -155,9 +143,7 @@
                 </div>
                 <div class="business-info-promotion">
                     <div class="business-info-promotion-left">
-                        <div class="business-info-promotion-left-incon"
-                             style="background-color: #F1884F;">特
-                        </div>
+                        <div class="business-info-promotion-left-incon" style="background-color: #F1884F;">特</div>
                         <p>特价商品5元起</p>
                     </div>
                 </div>
@@ -179,9 +165,7 @@
                         <i class="fa fa-star"></i>
                         <p>4.9 月售345单</p>
                     </div>
-                    <div class="business-info-star-right">
-                        蜂鸟专送
-                    </div>
+                    <div class="business-info-star-right">蜂鸟专送</div>
                 </div>
                 <div class="business-info-delivery">
                     <p>&#165;15起送 | &#165;3配送</p>
@@ -202,7 +186,7 @@
                 </div>
                 <div class="business-info-promotion">
                     <div class="business-info-promotion-left">
-                        <div class="business-info-promotion-left-incon">特</div>
+                        <div class="business-info-promotion-left-incon" style="background-color: #F1884F;">特</div>
                         <p>特价商品5元起</p>
                     </div>
                 </div>
@@ -224,9 +208,7 @@
                         <i class="fa fa-star"></i>
                         <p>4.9 月售345单</p>
                     </div>
-                    <div class="business-info-star-right">
-                        蜂鸟专送
-                    </div>
+                    <div class="business-info-star-right">蜂鸟专送</div>
                 </div>
                 <div class="business-info-delivery">
                     <p>&#165;15起送 | &#165;3配送</p>
@@ -247,7 +229,7 @@
                 </div>
                 <div class="business-info-promotion">
                     <div class="business-info-promotion-left">
-                        <div class="business-info-promotion-left-incon">特</div>
+                        <div class="business-info-promotion-left-incon" style="background-color: #F1884F;">特</div>
                         <p>特价商品5元起</p>
                     </div>
                 </div>
@@ -269,9 +251,7 @@
                         <i class="fa fa-star"></i>
                         <p>4.9 月售345单</p>
                     </div>
-                    <div class="business-info-star-right">
-                        蜂鸟专送
-                    </div>
+                    <div class="business-info-star-right">蜂鸟专送</div>
                 </div>
                 <div class="business-info-delivery">
                     <p>&#165;15起送 | &#165;3配送</p>
@@ -287,12 +267,12 @@
                     </div>
                     <div class="business-info-promotion-right">
                         <p>2个活动</p>
-                        <i class="fa fa-caret-down"></i>
+                        <i class="fa fa-caret-down"></i>`````
                     </div>
                 </div>
                 <div class="business-info-promotion">
                     <div class="business-info-promotion-left">
-                        <div class="business-info-promotion-left-incon">特</div>
+                        <div class="business-info-promotion-left-incon" style="background-color: #F1884F;">特</div>
                         <p>特价商品5元起</p>
                     </div>
                 </div>
@@ -314,9 +294,7 @@
                         <i class="fa fa-star"></i>
                         <p>4.9 月售345单</p>
                     </div>
-                    <div class="business-info-star-right">
-                        蜂鸟专送
-                    </div>
+                    <div class="business-info-star-right">蜂鸟专送</div>
                 </div>
                 <div class="business-info-delivery">
                     <p>&#165;15起送 | &#165;3配送</p>
@@ -337,7 +315,7 @@
                 </div>
                 <div class="business-info-promotion">
                     <div class="business-info-promotion-left">
-                        <div class="business-info-promotion-left-incon">特</div>
+                        <div class="business-info-promotion-left-incon" style="background-color: #F1884F;">特</div>
                         <p>特价商品5元起</p>
                     </div>
                 </div>

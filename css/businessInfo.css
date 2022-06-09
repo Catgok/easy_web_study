@@ -78,11 +78,11 @@
 .wrapper .food {
     width: 100%;
     /*使用下外边距避开footer部分*/
-    margin-bottom: 14vw;
+    margin-bottom: 15vw;
 }
 
 .last {
-    margin-bottom: 14vw;
+    margin-bottom: 16vw;
 }
 
 .wrapper .food li {

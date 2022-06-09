@@ -7,8 +7,16 @@
     <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/globalFooter.css">
     <link rel="stylesheet" href="../css/payment.css">
-    <script src="js/payment.js"></script>
+    <script src="../js/payment.js"></script>
     <title>饿了么 在线支付</title>
+    <script>
+        function change(id) {
+            document.getElementById(id).style.display = "block";
+            if (id === "wechat") id = "alipay";
+            else id = "wechat";
+            document.getElementById(id).style.display = "none";
+        }
+    </script>
 </head>
 <body>
 <div class="wrapper">
@@ -42,15 +50,20 @@
     <!-- 支付方式部分 -->
     <ul class="payment-type">
         <li>
-            <img src="./img/alipay.png">
-            <i class="fa fa-check-circle"></i>
+            <img src="../img/alipay.png" onclick="change('alipay')">
+            <div id="alipay" style="display: none;width: 100%;text-align:right">
+                <i style="margin-right: 3vw" class="fa fa-check-circle"></i>
+            </div>
         </li>
         <li>
-            <img src="./img/wechat.png">
+            <img src="../img/wechat.png" onclick="change('wechat')">
+            <div id="wechat" style="display: block;width: 100%;text-align:right">
+                <i style="margin-right: 3vw" class="fa fa-check-circle"></i>
+            </div>
         </li>
     </ul>
     <div class="payment-button">
-        <button>确认支付</button>
+        <button style="font-size: 3.8vw">确认支付</button>
     </div>
     <!-- 底部菜单部分 -->
     <ul class="footer">
