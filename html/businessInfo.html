@@ -12,16 +12,34 @@
         // javascript
         function clickMinus(id) {
             let foodCount = document.getElementById(id).innerText;
-            let x = Number(foodCount);
-            foodCount = Math.max(0, x - 1);
+            let foodCount_ = Number(foodCount);
+            let price = document.getElementById("price").innerText;
+            let price_ = Number(price);
+            let allFoodCount = document.getElementById("all-food-count").innerText;
+            let allFoodCount_ = Number(allFoodCount);
+            if (foodCount_ > 0) {
+                foodCount = foodCount_ - 1;
+                price = (price_ - 6.12).toFixed(2);
+                allFoodCount = allFoodCount_ - 1;
+            }
             document.getElementById(id).innerText = foodCount;
+            document.getElementById("price").innerText = price;
+            document.getElementById("all-food-count").innerText = allFoodCount;
         }
 
         function clickPlus(id) {
             let foodCount = document.getElementById(id).innerText;
-            let x = Number(foodCount);
-            foodCount = x + 1;
+            let foodCount_ = Number(foodCount);
+            let price = document.getElementById("price").innerText;
+            let price_ = Number(price);
+            let allFoodCount = document.getElementById("all-food-count").innerText;
+            let allFoodCount_ = Number(allFoodCount);
+            foodCount = foodCount_ + 1;
+            price = (price_ + 6.12).toFixed(2);
+            allFoodCount = allFoodCount_ + 1;
             document.getElementById(id).innerText = foodCount;
+            document.getElementById("price").innerText = price;
+            document.getElementById("all-food-count").innerText = allFoodCount;
         }
     </script>
 
@@ -183,10 +201,13 @@
         <div class="cart-left">
             <div class="cart-left-icon">
                 <i class="fa fa-shopping-cart"></i>
-                <div class="cart-left-icon-quantity">5</div>
+                <div class="cart-left-icon-quantity" id="all-food-count">7</div>
             </div>
             <div class="cart-left-info">
-                <p>&#165;56.23</p>
+                <div class="first" style="display: flex;flex-direction: row">
+                    &#165;
+                    <div id="price">42.84</div>
+                </div>
                 <p>另需配送费4.5元</p>
             </div>
         </div>
