@@ -25,6 +25,7 @@
             document.getElementById(id).innerText = foodCount;
             document.getElementById("price").innerText = price;
             document.getElementById("all-food-count").innerText = allFoodCount;
+            this.check(Number(price))
         }
 
         function clickPlus(id) {
@@ -40,7 +41,25 @@
             document.getElementById(id).innerText = foodCount;
             document.getElementById("price").innerText = price;
             document.getElementById("all-food-count").innerText = allFoodCount;
+            this.check(Number(price))
         }
+
+        function check(price) {
+            let a = document.getElementById("cart-right-item");
+            if (price < 15) {
+                a.style.backgroundColor = "#535356";
+                a.innerText = "15元起送"
+
+            } else {
+                a.style.backgroundColor = "#38CA73";
+                a.style.cursor = "pointer";
+                a.innerText = "去结算"
+                // a.onclick = "order.html"
+                console.log(a)
+            }
+        }
+
+
     </script>
 
 </head>
@@ -212,13 +231,14 @@
             </div>
         </div>
         <div class="cart-right">
-            <!--不够起送费 -->
-            <!--
-            <div class="cart-right-item"> &#165;15起送 </div>
-            -->
-            <!-- 达到起送费 -->
-            <div class="cart-right-item" onclick="location.href='order.html'">去结算</div>
+            <div class="cart-right-item" id="cart-right-item">去结算</div>
         </div>
+        <script>
+            let btn = document.getElementById("cart-right-item");
+            btn.addEventListener('click', function () {
+                if (Number(document.getElementById("price").innerText) >= 15) location.href = 'order.html'
+            })
+        </script>
     </footer>
 </div>
 </body>

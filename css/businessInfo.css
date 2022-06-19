@@ -209,7 +209,6 @@
     flex: 1;
 }
 
-/*达到起送费时的样式*/
 .wrapper .cart .cart-right .cart-right-item {
     width: 100%;
     height: 100%;
@@ -218,25 +217,7 @@
     font-size: 4.5vw;
     font-weight: 700;
     user-select: none;
-    cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
-/*不够起送费时的样式（只有背景色和鼠标样式的区别）*/
-/*
-.wrapper .cart .cart-right .cart-right-item{
-width: 100%;
-height: 100%;
-background-color: #535356;
-color: #fff;
-font-size: 4.5vw;3.5.确认订单页面（order.html）
-3.5.1.html部分
-font-weight: 700;
-user-select: none;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-*/
